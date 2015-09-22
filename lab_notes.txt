@@ -87,3 +87,10 @@ bgp redistribute-internal
 neighbor <REMOTE-IP> remote-as <REMOTE-AS-NUMBER>
 end
 write mem
+
+conf t
+router ospf 20
+auto-cost reference-bandwidth 1000
+end
+write mem
+
