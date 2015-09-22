@@ -7,6 +7,138 @@
     "topology": {
         "links": [
             {
+                "description": "Link from NGT2 port GigabitEthernet1/0 to NGT1 port GigabitEthernet1/0",
+                "destination_node_id": 4,
+                "destination_port_id": 59,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 1.97777681693103,
+                    "y": 47.25117163182449
+                },
+                "id": 1,
+                "source_node_id": 5,
+                "source_port_id": 62,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 64.02222318306897,
+                    "y": -3.2511716318244908
+                }
+            },
+            {
+                "description": "Link from NGT0 port FastEthernet3/0 to NGT1 port FastEthernet2/0",
+                "destination_node_id": 4,
+                "destination_port_id": 61,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f2/0",
+                    "x": -6.999956602994196,
+                    "y": 21.94107836915873
+                },
+                "id": 2,
+                "source_node_id": 1,
+                "source_port_id": 56,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f3/0",
+                    "x": 72.99995660299419,
+                    "y": 22.05892163084127
+                }
+            },
+            {
+                "description": "Link from NGT2 port GigabitEthernet4/0 to NGT0 port GigabitEthernet1/0",
+                "destination_node_id": 1,
+                "destination_port_id": 55,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 62.9444006064476,
+                    "y": 48.52042368290108
+                },
+                "id": 3,
+                "source_node_id": 5,
+                "source_port_id": 65,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g4/0",
+                    "x": 3.0555993935523986,
+                    "y": -4.520423682901082
+                }
+            },
+            {
+                "description": "Link from NGT1 port FastEthernet3/0 to NGT4 port FastEthernet3/0",
+                "destination_node_id": 7,
+                "destination_port_id": 72,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f3/0",
+                    "x": 33.28961764119185,
+                    "y": -17.998951506532137
+                },
+                "id": 4,
+                "source_node_id": 4,
+                "source_port_id": 60,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f3/0",
+                    "x": 32.71038235880815,
+                    "y": 61.99895150653214
+                }
+            },
+            {
+                "description": "Link from NGT2 port GigabitEthernet3/0 to NGT4 port GigabitEthernet1/0",
+                "destination_node_id": 7,
+                "destination_port_id": 71,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 0.08734320245245897,
+                    "y": -0.7322903053530467
+                },
+                "id": 5,
+                "source_node_id": 5,
+                "source_port_id": 63,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g3/0",
+                    "x": 65.91265679754754,
+                    "y": 44.73229030535305
+                }
+            },
+            {
+                "description": "Link from L3 port GigabitEthernet2/0 to Internet port nio_null:1",
+                "destination_node_id": 2,
+                "destination_port_id": 24,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "nio_null:1",
+                    "x": -0.48462573253800656,
+                    "y": 33.43167400524435
+                },
+                "id": 6,
+                "source_node_id": 3,
+                "source_port_id": 48,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g2/0",
+                    "x": 72.992312866269,
+                    "y": 22.784162997377823
+                }
+            },
+            {
                 "description": "Link from NGT3 port FastEthernet5/0 to NGT0 port FastEthernet4/0",
                 "destination_node_id": 1,
                 "destination_port_id": 58,
@@ -17,7 +149,7 @@
                     "x": 30.85325269829923,
                     "y": 61.94235190900304
                 },
-                "id": 1,
+                "id": 7,
                 "source_node_id": 6,
                 "source_port_id": 69,
                 "source_port_label": {
@@ -39,7 +171,7 @@
                     "x": 72.99741084566278,
                     "y": 22.45511058354907
                 },
-                "id": 2,
+                "id": 8,
                 "source_node_id": 7,
                 "source_port_id": 74,
                 "source_port_label": {
@@ -48,116 +180,6 @@
                     "text": "f4/0",
                     "x": -6.997410845662774,
                     "y": 21.54488941645093
-                }
-            },
-            {
-                "description": "Link from L3 port GigabitEthernet2/0 to Internet port nio_null:1",
-                "destination_node_id": 2,
-                "destination_port_id": 24,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "nio_null:1",
-                    "x": -0.48462573253800656,
-                    "y": 33.43167400524435
-                },
-                "id": 3,
-                "source_node_id": 3,
-                "source_port_id": 48,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g2/0",
-                    "x": 72.992312866269,
-                    "y": 22.784162997377823
-                }
-            },
-            {
-                "description": "Link from NGT0 port FastEthernet3/0 to NGT1 port FastEthernet2/0",
-                "destination_node_id": 4,
-                "destination_port_id": 61,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f2/0",
-                    "x": -6.999956602994196,
-                    "y": 21.94107836915873
-                },
-                "id": 4,
-                "source_node_id": 1,
-                "source_port_id": 56,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f3/0",
-                    "x": 72.99995660299419,
-                    "y": 22.05892163084127
-                }
-            },
-            {
-                "description": "Link from NGT1 port FastEthernet3/0 to NGT4 port FastEthernet3/0",
-                "destination_node_id": 7,
-                "destination_port_id": 72,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f3/0",
-                    "x": 33.28961764119185,
-                    "y": -17.998951506532137
-                },
-                "id": 5,
-                "source_node_id": 4,
-                "source_port_id": 60,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f3/0",
-                    "x": 32.71038235880815,
-                    "y": 61.99895150653214
-                }
-            },
-            {
-                "description": "Link from NGT2 port GigabitEthernet4/0 to NGT0 port GigabitEthernet1/0",
-                "destination_node_id": 1,
-                "destination_port_id": 55,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 62.9444006064476,
-                    "y": 48.52042368290108
-                },
-                "id": 6,
-                "source_node_id": 5,
-                "source_port_id": 65,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g4/0",
-                    "x": 3.0555993935523986,
-                    "y": -4.520423682901082
-                }
-            },
-            {
-                "description": "Link from NGT2 port GigabitEthernet1/0 to NGT1 port GigabitEthernet1/0",
-                "destination_node_id": 4,
-                "destination_port_id": 59,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 1.97777681693103,
-                    "y": 47.25117163182449
-                },
-                "id": 7,
-                "source_node_id": 5,
-                "source_port_id": 62,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 64.02222318306897,
-                    "y": -3.2511716318244908
                 }
             },
             {
@@ -171,7 +193,7 @@
                     "x": 66.39279173103571,
                     "y": -0.020932323761257976
                 },
-                "id": 8,
+                "id": 9,
                 "source_node_id": 5,
                 "source_port_id": 64,
                 "source_port_label": {
@@ -180,28 +202,6 @@
                     "text": "g2/0",
                     "x": -0.3927917310357145,
                     "y": 44.02093232376126
-                }
-            },
-            {
-                "description": "Link from NGT2 port GigabitEthernet3/0 to NGT4 port GigabitEthernet1/0",
-                "destination_node_id": 7,
-                "destination_port_id": 71,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 0.08734320245245897,
-                    "y": -0.7322903053530467
-                },
-                "id": 9,
-                "source_node_id": 5,
-                "source_port_id": 63,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g3/0",
-                    "x": 65.91265679754754,
-                    "y": 44.73229030535305
                 }
             },
             {
@@ -593,34 +593,10 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to NGT2 on port GigabitEthernet4/0",
-                        "id": 55,
-                        "link_id": 6,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 1,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to NGT3 on port FastEthernet5/0",
-                        "id": 58,
-                        "link_id": 1,
-                        "name": "FastEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to NGT1 on port FastEthernet2/0",
                         "id": 56,
-                        "link_id": 4,
+                        "link_id": 2,
                         "name": "FastEthernet3/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -632,6 +608,30 @@
                         "link_id": 18,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to NGT2 on port GigabitEthernet4/0",
+                        "id": 55,
+                        "link_id": 3,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to NGT3 on port FastEthernet5/0",
+                        "id": 58,
+                        "link_id": 7,
+                        "name": "FastEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 1,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -693,7 +693,7 @@
                     {
                         "description": "connected to L3 on port GigabitEthernet2/0",
                         "id": 24,
-                        "link_id": 3,
+                        "link_id": 6,
                         "name": "nio_null:1",
                         "nio": "NIO_Null",
                         "stub": true
@@ -723,6 +723,15 @@
                 },
                 "ports": [
                     {
+                        "adapter_number": 2,
+                        "description": "connected to Internet on port nio_null:1",
+                        "id": 48,
+                        "link_id": 6,
+                        "name": "GigabitEthernet2/0",
+                        "nio": "NIO_Null",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 1,
                         "description": "connected to SW1 on port 3",
                         "id": 25,
@@ -735,15 +744,6 @@
                         "adapter_number": 0,
                         "id": 26,
                         "name": "GigabitEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "description": "connected to Internet on port nio_null:1",
-                        "id": 48,
-                        "link_id": 3,
-                        "name": "GigabitEthernet2/0",
-                        "nio": "NIO_Null",
                         "port_number": 0
                     }
                 ],
@@ -802,25 +802,10 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to NGT2 on port GigabitEthernet1/0",
-                        "id": 59,
-                        "link_id": 7,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 3,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to NGT4 on port FastEthernet3/0",
                         "id": 60,
-                        "link_id": 5,
+                        "link_id": 4,
                         "name": "FastEthernet3/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -829,9 +814,24 @@
                         "adapter_number": 2,
                         "description": "connected to NGT0 on port FastEthernet3/0",
                         "id": 61,
-                        "link_id": 4,
+                        "link_id": 2,
                         "name": "FastEthernet2/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to NGT2 on port GigabitEthernet1/0",
+                        "id": 59,
+                        "link_id": 1,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 3,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -891,34 +891,10 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to NGT1 on port GigabitEthernet1/0",
-                        "id": 62,
-                        "link_id": 7,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 4,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to NGT0 on port GigabitEthernet1/0",
-                        "id": 65,
-                        "link_id": 6,
-                        "name": "GigabitEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to NGT4 on port GigabitEthernet1/0",
                         "id": 63,
-                        "link_id": 9,
+                        "link_id": 5,
                         "name": "GigabitEthernet3/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -927,9 +903,33 @@
                         "adapter_number": 2,
                         "description": "connected to NGT3 on port GigabitEthernet1/0",
                         "id": 64,
-                        "link_id": 8,
+                        "link_id": 9,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to NGT1 on port GigabitEthernet1/0",
+                        "id": 62,
+                        "link_id": 1,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to NGT0 on port GigabitEthernet1/0",
+                        "id": 65,
+                        "link_id": 3,
+                        "name": "GigabitEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 4,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -990,44 +990,11 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to NGT2 on port GigabitEthernet2/0",
-                        "id": 66,
-                        "link_id": 8,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 5,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to NGT4 on port FastEthernet4/0",
-                        "id": 70,
-                        "link_id": 2,
-                        "name": "FastEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to CB on port GigabitEthernet1/0",
                         "id": 67,
                         "link_id": 23,
                         "name": "GigabitEthernet3/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 5,
-                        "description": "connected to NGT0 on port FastEthernet4/0",
-                        "id": 69,
-                        "link_id": 1,
-                        "name": "FastEthernet5/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1038,6 +1005,39 @@
                         "link_id": 19,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 5,
+                        "description": "connected to NGT0 on port FastEthernet4/0",
+                        "id": 69,
+                        "link_id": 7,
+                        "name": "FastEthernet5/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to NGT2 on port GigabitEthernet2/0",
+                        "id": 66,
+                        "link_id": 9,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to NGT4 on port FastEthernet4/0",
+                        "id": 70,
+                        "link_id": 8,
+                        "name": "FastEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 5,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -1099,34 +1099,10 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to NGT2 on port GigabitEthernet3/0",
-                        "id": 71,
-                        "link_id": 9,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 6,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to NGT3 on port FastEthernet4/0",
-                        "id": 74,
-                        "link_id": 2,
-                        "name": "FastEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to NGT1 on port FastEthernet3/0",
                         "id": 72,
-                        "link_id": 5,
+                        "link_id": 4,
                         "name": "FastEthernet3/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1138,6 +1114,30 @@
                         "link_id": 21,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to NGT2 on port GigabitEthernet3/0",
+                        "id": 71,
+                        "link_id": 5,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to NGT3 on port FastEthernet4/0",
+                        "id": 74,
+                        "link_id": 8,
+                        "name": "FastEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 6,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -1198,35 +1198,20 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to CB on port GigabitEthernet2/0",
-                        "id": 39,
-                        "link_id": 24,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 7,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to T1 on port FastEthernet3/0",
-                        "id": 43,
-                        "link_id": 10,
-                        "name": "FastEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to T2 on port GigabitEthernet4/0",
                         "id": 40,
                         "link_id": 12,
                         "name": "GigabitEthernet3/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to CC on port GigabitEthernet1/0",
+                        "id": 41,
+                        "link_id": 25,
+                        "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1240,12 +1225,27 @@
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "description": "connected to CC on port GigabitEthernet1/0",
-                        "id": 41,
-                        "link_id": 25,
-                        "name": "GigabitEthernet2/0",
+                        "adapter_number": 1,
+                        "description": "connected to CB on port GigabitEthernet2/0",
+                        "id": 39,
+                        "link_id": 24,
+                        "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to T1 on port FastEthernet3/0",
+                        "id": 43,
+                        "link_id": 10,
+                        "name": "FastEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 7,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -1307,30 +1307,6 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to SW1 on port 1",
-                        "id": 27,
-                        "link_id": 20,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 8,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to T4 on port FastEthernet2/0",
-                        "id": 30,
-                        "link_id": 15,
-                        "name": "FastEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to T0 on port FastEthernet4/0",
                         "id": 28,
@@ -1346,6 +1322,30 @@
                         "link_id": 11,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to SW1 on port 1",
+                        "id": 27,
+                        "link_id": 20,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to T4 on port FastEthernet2/0",
+                        "id": 30,
+                        "link_id": 15,
+                        "name": "FastEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 8,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -1406,30 +1406,6 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to T3 on port GigabitEthernet1/0",
-                        "id": 44,
-                        "link_id": 14,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 9,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to T0 on port GigabitEthernet3/0",
-                        "id": 47,
-                        "link_id": 12,
-                        "name": "GigabitEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to T1 on port GigabitEthernet2/0",
                         "id": 45,
@@ -1445,6 +1421,30 @@
                         "link_id": 17,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to T3 on port GigabitEthernet1/0",
+                        "id": 44,
+                        "link_id": 14,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to T0 on port GigabitEthernet3/0",
+                        "id": 47,
+                        "link_id": 12,
+                        "name": "GigabitEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 9,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -1505,30 +1505,6 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to T2 on port GigabitEthernet1/0",
-                        "id": 35,
-                        "link_id": 14,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 10,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to T0 on port FastEthernet5/0",
-                        "id": 38,
-                        "link_id": 13,
-                        "name": "FastEthernet4/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to T4 on port FastEthernet3/0",
                         "id": 36,
@@ -1544,6 +1520,30 @@
                         "link_id": 26,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to T2 on port GigabitEthernet1/0",
+                        "id": 35,
+                        "link_id": 14,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "description": "connected to T0 on port FastEthernet5/0",
+                        "id": 38,
+                        "link_id": 13,
+                        "name": "FastEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 10,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -1604,21 +1604,6 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 1,
-                        "description": "connected to T2 on port GigabitEthernet2/0",
-                        "id": 31,
-                        "link_id": 17,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "id": 11,
-                        "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
                         "adapter_number": 3,
                         "description": "connected to T3 on port FastEthernet3/0",
                         "id": 75,
@@ -1634,6 +1619,21 @@
                         "link_id": 15,
                         "name": "FastEthernet2/0",
                         "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to T2 on port GigabitEthernet2/0",
+                        "id": 31,
+                        "link_id": 17,
+                        "name": "GigabitEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 11,
+                        "name": "FastEthernet0/0",
                         "port_number": 0
                     }
                 ],
@@ -1693,6 +1693,15 @@
                 },
                 "ports": [
                     {
+                        "adapter_number": 2,
+                        "description": "connected to NGT3 on port GigabitEthernet2/0",
+                        "id": 54,
+                        "link_id": 19,
+                        "name": "GigabitEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 1,
                         "description": "connected to NGT0 on port GigabitEthernet2/0",
                         "id": 53,
@@ -1705,15 +1714,6 @@
                         "adapter_number": 0,
                         "id": 12,
                         "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "description": "connected to NGT3 on port GigabitEthernet2/0",
-                        "id": 54,
-                        "link_id": 19,
-                        "name": "GigabitEthernet2/0",
-                        "nio": "NIO_UDP",
                         "port_number": 0
                     }
                 ],
@@ -1772,6 +1772,15 @@
                 },
                 "ports": [
                     {
+                        "adapter_number": 2,
+                        "description": "connected to T0 on port GigabitEthernet1/0",
+                        "id": 52,
+                        "link_id": 24,
+                        "name": "GigabitEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 1,
                         "description": "connected to NGT3 on port GigabitEthernet3/0",
                         "id": 51,
@@ -1784,15 +1793,6 @@
                         "adapter_number": 0,
                         "id": 13,
                         "name": "FastEthernet0/0",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "description": "connected to T0 on port GigabitEthernet1/0",
-                        "id": 52,
-                        "link_id": 24,
-                        "name": "GigabitEthernet2/0",
-                        "nio": "NIO_UDP",
                         "port_number": 0
                     }
                 ],
